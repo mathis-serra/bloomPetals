@@ -1,0 +1,173 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+header.header{
+    background-color: gray;
+    height: 60px;
+
+    
+}
+
+
+
+
+/*Menu de navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    margin-top: 5px;
+}
+
+nav li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+/*barre de recherche*/
+.recherche{
+    width: 200px;
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    outline: none;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 3% 9%;
+    background-color: rgb(254, 238, 234);
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    background-color: white;
+}
+
+#title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:fantasy;
+    margin: auto;
+}
+
+#t-pres{
+    width: 75%;
+    margin:auto; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#first-bar{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.images{
+    display: flex;
+    margin:auto;
+    width: 92%;
+}
+
+.img1{
+    display: flex;
+    border: 1px solid black;   
+    flex:1;
+    margin: 3% 1%;
+    
+}
+
+.img1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+
+#seconde-bar{
+    width: 90%;
+    margin: auto;
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    
+    margin: 2% 2%;
+    
+
+}
+
+.service-para{
+    width: 30%;
+}
+.titre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.titre h3{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 1%;
+}
+.titre img{
+    width: 3%;  
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.para-service{
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+
+#third-bar{
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+footer{
+    background-color: gray;
+    height: 60px;
+}
+
