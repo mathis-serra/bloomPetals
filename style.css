@@ -62,8 +62,13 @@ nav li a:hover{
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 3% 9%;
-    background-color: rgb(254, 238, 234);
+    width: 70%;
+    max-width: 1100px;
+    min-width: 1100px;
+    margin: 3% auto;
+    max-height: 1100px;
+    min-height: 500px;
+    background-color:white;
     
 }
 
@@ -71,7 +76,14 @@ main{
     display: flex;
     justify-content: center;    
     flex-direction: column;
+    background-color:  rgb(254, 238, 234);
+}
+#background{
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    margin: 4%;
+    padding-top: 1em;
 }
 
 #title{
@@ -82,8 +94,9 @@ main{
 }
 
 #t-pres{
-    width: 75%;
-    margin:auto; 
+    display:flex;
+    width: 90%;
+    margin: auto;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -125,14 +138,14 @@ main{
 .service{
     display: flex;
     justify-content: center;
-    
-    margin: 2% 2%;
+    margin: 2% 3%;
     
 
 }
 
 .service-para{
     width: 30%;
+    margin-right: 10px;
 }
 .titre{
     display: flex;
@@ -148,14 +161,15 @@ main{
     margin: 0 1%;
 }
 .titre img{
-    width: 3%;  
-    border-radius: 50%;
-    border: 1px solid black;
+    width: 6%;  
+    margin-right: 10px;
+    
 }
 
 .para-service{
     font-size: 12px;
-    margin: 0 10px;
+    text-align: justify;
+    margin-right: 2%;
 }
 
 
