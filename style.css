@@ -6,6 +6,7 @@
 header.header{
     background-color: gray;
     height: 60px;
+    
 
     
 }
@@ -69,6 +70,7 @@ body{
     max-height: 1100px;
     min-height: 500px;
     background-color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -77,6 +79,7 @@ main{
     justify-content: center;    
     flex-direction: column;
     background-color:  rgb(254, 238, 234);
+    
 }
 #background{
     display: flex;
@@ -84,6 +87,7 @@ main{
     background-color: white;
     margin: 4%;
     padding-top: 1em;
+    
 }
 
 #title{
@@ -100,26 +104,25 @@ main{
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    color: #989898;
+    line-height: 25px;
 }
 
-#first-bar{
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-}
 
 .images{
     display: flex;
     margin:auto;
     width: 92%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .img1{
     display: flex;
-    border: 1px solid black;   
-    flex:1;
-    margin: 3% 1%;
-    
+    flex: 1;
+    padding: 5px 5px;
+    margin: 3% 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .img1:hover{
@@ -130,10 +133,7 @@ main{
 
 
 
-#seconde-bar{
-    width: 90%;
-    margin: auto;
-}
+
 
 .service{
     display: flex;
@@ -171,17 +171,19 @@ main{
     text-align: justify;
     margin-right: 2%;
 }
+.para-service p{
+    color: #989898;
+}
 
 
-#third-bar{
-    width: 90%;
-    margin: auto;
-    
+#last-img{
+    border-bottom: none;
 }
 
 
 footer{
     background-color: gray;
     height: 60px;
+    
 }
 
