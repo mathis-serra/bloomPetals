@@ -6,9 +6,6 @@
 header.header{
     background-color: gray;
     height: 60px;
-    
-
-    
 }
 
 
@@ -67,14 +64,13 @@ body{
     max-width: 1100px;
     min-width: 1100px;
     margin: 3% auto;
-    max-height: 1100px;
     min-height: 500px;
     background-color:white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
 }
 
-main{
+#main{
     display: flex;
     justify-content: center;    
     flex-direction: column;
@@ -181,6 +177,150 @@ main{
 }
 
 
+
+
+
+
+
+#images-b{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    width: 100%;
+    
+   
+    
+}
+
+.img2-b{
+    display: flex;
+    flex: 1;
+    width: 137px;
+    height: 190px;
+    padding: 5px 5px;
+    margin: 3% 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 80%;
+}
+
+.img2-b:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.img2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img2{
+    display: flex;
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    padding: 5px 5px;
+    margin: 3% 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 80%;
+}
+
+
+
+
+#entrepsise-b{
+    display: flex;
+    margin: 4%;
+    width: 92%;
+    background-color: rgb(254, 238, 234);
+}
+
+
+#img-fleur-a{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+#img-fleur-a h3{
+    align-items: center; 
+    text-align: center;
+    margin:0 10%;
+    
+}
+
+#img-fleur-b{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+#img-fleur-b h3{
+    align-items: center; 
+    text-align: center;
+    margin:0 10%;
+    
+}
+
+#img-fleur-c{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+#img-fleur-c h3{
+    align-items: center; 
+    text-align: center;
+    margin:0 10%;
+}
+
+#img-fleur-d{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+#img-fleur-d h3{
+    align-items: center; 
+    text-align: center;
+    margin:0 10%;
+}
+
+#img-fleur-e{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+#img-fleur-e h3{
+    align-items: center; 
+    text-align: center;
+    margin:0 10%;
+}
+
+#img-fleur-f{
+    display: flex;
+    align-items: center;
+    margin:0 30px;
+}
+
+#img-fleur-f h3{
+    align-items: center; 
+    text-align: center;
+    margin:0 10%;
+}
+
+#images-b article{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(252, 246, 246);
+    padding: 2%;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#images-b h3{
+    color: rgb(219, 79, 145);
+}
 footer{
     background-color: gray;
     height: 60px;
