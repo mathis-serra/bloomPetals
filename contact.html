@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav-bar">
+                <ul class="other">
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="entreprise"><a href="entreprise.html">Entreprise</a></li>
+                    <li id="realisation"><a href="realisation.html">Réalisation</a></li>
+                    <li id="contact"><a href="contact.html">Contact</a></li>
+                </ul>
+                <section class="recherche">
+                    <input type="text" placeholder="Recherche..." class="search-input">
+                </section>
+            </nav>
+        </header>
+
+
+
+        <main id="contact-b">
+
+            <section id="title-contact">
+                <h1>Contact</h1>     
+            </section>
+
+            <section id="contact-form">
+                <form action="contact.php" method="post">
+                    <section class="form">
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Votre nom" required>
+                    </section>
+                    <section class="form">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
+                    </section>
+                    <section class="form">
+                        <label for="civilité">Civilité :</label>
+                        <select name="civilité" id="civilité" required>
+                            <option value="Monsieur">Monsieur</option>
+                            <option value="Madame">Madame</option>
+                            <option value="JeNeMePrononcePas">Je ne me prononce pas</option>
+                        </select>
+                    </section>
+                    <section class="form">
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email" placeholder="Votre email" required>
+                    </section>
+                    <section class="form">
+                        <label for="telephone">Téléphone :</label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="Votre téléphone" required>
+                    </section>
+                    
+                    
+                    <section id="form-b">
+                        <label for="message">Message :</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" required></textarea>
+                    </section>
+
+                     
+                    <section class="form">
+                        <input type="submit" value="Envoyer">
+                    </section>
+                </form>
+            </section>
+
+            
+        </main>
+
+        <footer></footer>
+    </body>
+</html>
