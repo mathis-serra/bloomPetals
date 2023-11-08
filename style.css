@@ -508,3 +508,90 @@ footer{
     
 }
 
+
+
+
+   
+@media only screen and (max-device-width: 700px) { 
+    #contact-form {
+        width: 100%;
+    }
+    
+    .form {
+        width: 100%;
+    }
+    
+    #form-b {
+        width: 100%;
+    }
+        
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    background-color: rgb(254, 238, 234);
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+#contact-form label{
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    width: 100%;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    width: 20%;
+}
+#form-b{
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    width: 70%;
+}
+.form label{
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    width: 100%;
+    align-items: center;
+    font-family: fantasy;
+}
+.form input, select{
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    outline: none;
+}
+#form-b textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    outline: none;
+}
+#form-b label{
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    width: 100%;
+    align-items: center;
+    font-family: fantasy;
+}
+footer{
+    background-color: gray;
+    height: 60px;
+}
+
+
+}
